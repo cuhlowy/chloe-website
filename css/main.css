@@ -1,1 +1,6 @@
 /* Place CSS styles here */
+body{
+    color:burlywood;
+    background-color: blue;
+    font-size: 30px;
+}
