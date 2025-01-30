@@ -1,7 +1,48 @@
 /* Place CSS styles here */
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: rgb(64, 185, 64);
+}
+
 body{
+    background-color:#FFB6C1;
+
     color: #000;
-    background-color:#818D92;
     font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     background-image: url(../img/7627759-grassy-field-conceptual-image-grassy-field-in-summer.jpg);
+}
+
+ul img {
+    border: 5px solid pink;
+}
+
+div img {
+    border: 15px solid brown;
+}
+
+.snow-day{
+    color: purple
+}
+
+.cat-image{
+    width: 300px;
+}
+
+.chloe-website-heading{
+    text-align: center;
+}
+.chloe-website-container .chloe-website-inner-heading{
+    border: 3px solid red;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
